@@ -3,6 +3,7 @@ import Footer from "../Components/Footer"
 import Navbar from "../Components/Navbar"
 import { useEffect, useState } from "react"
 import Header from "../Components/Header"
+import LatestNews from "../Components/LatestNews"
 
 const MainLayouts = () => {
 
@@ -20,6 +21,10 @@ const MainLayouts = () => {
 
             {/* Header  */}
             <Header />
+
+            <div className="w--11/12 mx-auto" >
+                <LatestNews />
+            </div>
 
             {/* Favbar  */}
             <Navbar />
