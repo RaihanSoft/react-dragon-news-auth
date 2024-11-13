@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom"
 import Footer from "../Components/Footer"
 import Navbar from "../Components/Navbar"
 import { useEffect, useState } from "react"
+import Header from "../Components/Header"
 
 const MainLayouts = () => {
 
@@ -16,6 +17,9 @@ const MainLayouts = () => {
 
     return (
         <div>
+
+            {/* Header  */}
+            <Header />
 
             {/* Favbar  */}
             <Navbar />
